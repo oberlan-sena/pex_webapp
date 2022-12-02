@@ -1,5 +1,5 @@
 import hello from "../../assets/avatar.svg";
-// import Chart from "../charts/Chart";
+import Chart from "../charts/Chart";
 import "./Main.css";
 
 const Main = () => {
@@ -9,7 +9,7 @@ const Main = () => {
         <div className="main__title">
           <img src={hello} alt="hello"></img>
           <div className="main__greeting">
-            <h1>Velty Dashboard</h1>
+            <h1>Dashboard</h1>
             <p>Bem vindo ao seu painel</p>
           </div>
         </div>
@@ -18,7 +18,7 @@ const Main = () => {
           <div className="card">
             <i className="fa fa-file-text fa-2x text-lightblue"></i>
             <div className="card_inner">
-              <p className="text-primary-p">Número de pedidos</p>
+              <p className="text-primary-p">NÃºmero de pedidos</p>
               <span className="font-bold text-title">578</span>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Main = () => {
           <div className="card">
             <i className="fa fa-archive fa-2x text-yellow"></i>
             <div className="card_inner">
-              <p className="text-primary-p">Número de produtos</p>
+              <p className="text-primary-p">NÃºmero de produtos</p>
               <span className="font-bold text-title">670</span>
             </div>
           </div>
@@ -53,9 +53,42 @@ const Main = () => {
             <div className="charts__left__title">
               <div>
                 <h1>Daily Reports</h1>
-                <p>Ubatuba, São Paulo, BR</p>
+                <p>Ubatuba, SÃ£o Paulo, BR</p>
               </div>
               <i className="fa fa-usd"></i>
+            </div>
+            <Chart></Chart>
+          </div>
+
+          <div className="charts__right">
+            <div className="charts__right__title">
+              <div>
+                <h1>Daily Reports</h1>
+                <p>Ubatuba, SÃ£o Paulo, BR</p>
+              </div>
+              <i className="fa fa-area-chart"></i>
+            </div>
+
+            <div className="charts__right__cards">
+              <div className="card1">
+                <h1>lucro</h1>
+                <p>R$ 2.500</p>
+              </div>
+
+              <div className="card2">
+                <h1>Pagamentos</h1>
+                <p>R$ 250,00</p>
+              </div>
+
+              <div className="card3">
+                <h1>Custos</h1>
+                <p>R$ 150,00</p>
+              </div>
+
+              <div className="card4">
+                <h1>Banco de dados</h1>
+                <p>R$ 180,00</p>
+              </div>
             </div>
           </div>
         </div>

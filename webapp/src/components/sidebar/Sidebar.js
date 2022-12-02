@@ -18,7 +18,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       </div>
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
-          <i class="bi bi-house-door"></i>
+          <i className="fa-solid fa-gauge"></i>
           <a href="#">Dashboard</a>
         </div>
         <h2>ADMIN</h2>
@@ -28,7 +28,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         </div>
         <div className="sidebar__link">
           <i className="fa fa-tachometer"></i>
-          <a href="#">Relatórios</a>
+          <a href="#">RelatÃ³rios</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-building"></i>
