@@ -9,10 +9,10 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
       </div>
 
       <div className="navbar__left">
-        <a href="#">Produtos</a>
-        <a href="#">Usu·rios</a>
+        {/* <a href="#">Produtos</a>
+        <a href="#">Usu√°rios</a> */}
         <a href="#" className="active_link">
-          Admin
+          Velty Dashboard
         </a>
       </div>
 
